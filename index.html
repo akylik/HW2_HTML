@@ -1,112 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>HW2_HTML</title>
 </head>
+
 <body>
-   <table border="4">
+   <table >
       <tr>
-        <th>Ім'я</th>
-        <th>Прізвище</th>
-        <th>Телефон</th>
-        <th>E-mail</th>
+         <th>Ім'я</th>
+         <th>Прізвище</th>
+         <th>Телефон</th>
+         <th>E-mail</th>
       </tr>
       <tr>
-        <td>Микола</td>
-        <td>Шевчук</td>
-        <td>05-14-110</td>
-        <td>qwerty@gmail.com</td>
+         <td>Микола</td>
+         <td>Шевчук</td>
+         <td>05-14-110</td>
+         <td>qwerty@gmail.com</td>
       </tr>
       <tr>
-        <td>Станіслав</td>
-        <td>Марченко</td>
-        <td>05-12-965</td>
-        <td>qwerty1@gmail.com</td>
+         <td>Станіслав</td>
+         <td>Марченко</td>
+         <td>05-12-965</td>
+         <td>qwerty1@gmail.com</td>
       </tr>
       <tr>
-        <td>Артем</td>
-        <td>Прилипко</td>
-        <td>40-11-625</td>
-        <td>qwerty4@gmail.com</td>
+         <td>Артем</td>
+         <td>Прилипко</td>
+         <td>40-11-625</td>
+         <td>qwerty4@gmail.com</td>
       </tr>
       <tr>
-        <td>Володимир</td>
-        <td>Юдченко</td>
-        <td>25-02-987</td>
-        <td>qwerty3@gmail.com</td>
+         <td>Володимир</td>
+         <td>Юдченко</td>
+         <td>25-02-987</td>
+         <td>qwerty3@gmail.com</td>
       </tr>
-    </table>
-    <br>
-    <br>
-    <br>
-    <form>
+   </table>
+   <br>
+   <br>
+   <br>
+   <form action="#">
       <div>
          <div>
             <label for="name"><b>Имя</b></label>
          </div>
-         <input type="text" placeholder="Введіть ім'я" name="name" id="name" required
-         minlength="4" maxlength="10" size="15"/>
+         <input type="text" placeholder="Введіть ім'я" name="name" id="name" required minlength="4" maxlength="10"
+            size="15" />
       </div>
       <br>
       <div>
          <div>
             <label for="surname"><b>Прізвище</b></label>
          </div>
-         <input type="text" placeholder="Введіть прізвище" name="surname" id="surname" required
-         minlength="4" maxlength="10" size="15"/>
+         <input type="text" placeholder="Введіть прізвище" name="surname" id="surname" required minlength="4"
+            maxlength="10" size="15" />
       </div>
-    </form>
-    <br>
-    <br>
-    <div>
-      <h4>Оберіть Вашу стать</h4>
+      <br>
+      <br>
       <div>
-         <label>
-           <input type="radio" name="gender" value="male" checked />Чоловіча
-         </label>
+         <h4>Оберіть Вашу стать</h4>
+         <div>
+            <label>
+               <input type="radio" name="gender" value="male" checked />Чоловіча
+            </label>
+         </div>
+         <div>
+            <label>
+               <input type="radio" name="gender" value="female" />Жіноча
+            </label>
+         </div>
       </div>
+      <br>
+      <br>
       <div>
-         <label>
-           <input type="radio" name="gender" value="female" />Жіноча
-         </label>
+         <textarea placeholder="Введіть Ваше запитання" rows="10" cols="45" name=""></textarea>
       </div>
-    </div>
-   <br>
-   <br>
-   <form>
-      <textarea placeholder="Введіть Ваше запитання" rows="10" cols="45" name=""></textarea>
-   </form>
-   <br>
-   <br>
-      <form>
+      <br>
+      <br>
+      <div>
          <h4>Оберіть місто</h4>
-          <select>
+         <select>
             <option selected disabled>Оберіть місто</option>
             <option value="Kiev">Київ</option>
             <option value="Dnipro">Дніпро</option>
             <option value="Odessa">Одеса</option>
             <option value="Lviv">Львів</option>
-          </select>
-      </form>
+         </select>
+      </div>
       <br>
       <br>
-      <form>
-        <h4>Оберіть мову</h4>
-        <label>
-           <input type="checkbox" name="language" />Українська
-       </label> <br>
-        <label>
-           <input type="checkbox" name="language" />Російська
-         </label> <br>
-         <label>
-            <input type="checkbox" name="language" />Англійська
-       </label>
-      </form>
-      <br>
-      <form action="">
-         <button>Відправити</button>
-      </form>
+      <h4>Оберіть мову</h4>
+      <label>
+         <input type="checkbox" name="language" />Українська
+      </label> <br>
+      <label>
+         <input type="checkbox" name="language" />Російська
+      </label> <br>
+      <label>
+         <input type="checkbox" name="language" />Англійська
+      </label>
+   </form>
+   <br>
+   <div>
+      <button>Відправити</button>
+   </div>
 </body>
+
 </html>
